@@ -54,7 +54,8 @@ func main() {
     homeInt := genv.Get[int]("HOME")
 
     // prints: "(int) 0"
-    fmt.Printf("(%T) %v\n", homeInt, homeInt)}
+    fmt.Printf("(%T) %v\n", homeInt, homeInt)
+}
 ```
 
 ### GetWithDefault
@@ -74,4 +75,5 @@ func main() {
 
     // prints: "(string) hello"
     fmt.Printf("(%T) %v\n", str, str)
+}
 ```
